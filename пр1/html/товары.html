@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров - KantzShop</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/3075/3075846.png" alt="Logo">
+                <span>KantzShop</span>
+            </div>
+            <input type="text" class="search-bar" placeholder="Поиск по каталогу...">
+            <div class="nav-icons">
+                <div class="icon-btn">
+                    <img src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png" alt="Profile">
+                    <span>Профиль</span>
+                </div>
+                <div class="icon-btn cart-btn">
+                    <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" alt="Cart">
+                    <span>Корзина</span>
+                    <div class="cart-count">2</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <div class="filters-sidebar">
+            <h3>Фильтры</h3>
+            <div class="filter-group">
+                <h4>Категории</h4>
+                <label class="filter-option">
+                    <input type="checkbox"> Карандаши
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Ручки
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Тетради
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Альбомы
+                </label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Цена</h4>
+                <div class="price-range">
+                    <input type="number" placeholder="От">
+                    <input type="number" placeholder="До">
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h4>Бренды</h4>
+                <label class="filter-option">
+                    <input type="checkbox"> Erich Krause
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Pilot
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Faber-Castell
+                </label>
+            </div>
+        </div>
+
+        <div class="products-container">
+            <div class="products-header">
+                <h2>Каталог товаров</h2>
+                <select class="sort-select">
+                    <option>По популярности</option>
+                    <option>По цене ↑</option>
+                    <option>По цене ↓</option>
+                    <option>По рейтингу</option>
+                </select>
+            </div>
+
+            <div class="products-grid">
+            
+                <div class="product-card">
+                    <div class="product-badge">Хит</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/2991/2991147.png" alt="Набор карандашей" class="product-image">
+                    <div class="product-info">
+                        <h3>Набор цветных карандашей "Artist Pro"</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(256)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">899 ₽</span>
+                            <span class="old-price">1299 ₽</span>
+                        </div>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+
+                
+                <div class="product-card">
+                    <div class="product-badge new">Новинка</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3389/3389081.png" alt="Ручка гелевая" class="product-image">
+                    <div class="product-info">
+                        <h3>Ручка гелевая Pilot G2-07</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-count">(178)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">129 ₽</span>
+                        </div>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+
+               
+                <div class="product-card">
+                    <div class="product-badge sale">-40%</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3389/3389019.png" alt="Тетрадь" class="product-image">
+                    <div class="product-info">
+                        <h3>Тетрадь 48 листов "Premium"</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(342)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">59 ₽</span>
+                            <span class="old-price">99 ₽</span>
+                        </div>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2991/2991147.png" alt="Линейка" class="product-image">
+                    <div class="product-info">
+                        <h3>Линейка металлическая 30см</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-count">(89)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">149 ₽</span>
+                        </div>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+
+               
+                <div class="product-card">
+                    <div class="product-badge">Хит</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3389/3389081.png" alt="Ластик" class="product-image">
+                    <div class="product-info">
+                        <h3>Ластик мягкий "Clean Master"</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(167)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">49 ₽</span>
+                            <span class="old-price">69 ₽</span>
+                        </div>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+
+               
+                <div class="product-card">
+                    <div class="product-badge new">Новинка</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3389/3389019.png" alt="Альбом" class="product-image">
+                    <div class="product-info">
+                        <h3>Альбом для рисования А4</h3>
+                        <div class="product-rating">
+                            <span class="stars">★★★★☆</span>
+                            <span class="rating-count">(56)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">199 ₽</span>
+                        </div>
+                        <button class="add-to-cart-btn">В корзину</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">4</button>
+                <span>...</span>
+                <button class="page-btn">10</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Информация</h4>
+                <a href="#">О компании</a>
+                <a href="#">Доставка и оплата</a>
+                <a href="#">Возврат</a>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p>8 (800) 555-35-35</p>
+                <p>info@kantzshop.ru</p>
+            </div>
+            <div class="footer-section">
+                <h4>Мы в соцсетях</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">VK</a>
+                    <a href="#" class="social-link">Telegram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Практическая работа 1 // Колесникова Анастасия // Магазин канцтоваров</p>
+        </div>
+    </footer>
+</body>
+</html>
